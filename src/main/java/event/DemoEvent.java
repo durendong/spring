@@ -4,6 +4,7 @@ import org.springframework.context.ApplicationEvent;
 
 /**
  * Created by durendong on 2017/1/16.
+ * 自定义事件
  */
 public class DemoEvent extends ApplicationEvent {
 

@@ -12,6 +12,9 @@ import java.io.IOException;
 
 /**
  * Created by durendong on 2017/1/16.
+ * Aware类型的类和接口里面有很多spring框架自己的东西
+ * 如果想要获取这些东西,那么就不可避免的,会和spring框架进行耦合
+ * 但是这是实际开发中必然会出现的情况,所以所谓的松耦合也是有条件的
  */
 @Service
 public class AwareService implements BeanNameAware,ResourceLoaderAware {

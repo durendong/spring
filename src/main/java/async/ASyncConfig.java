@@ -11,6 +11,8 @@ import java.util.concurrent.Executor;
 
 /**
  * Created by durendong on 2017/1/16.
+ * spring提供了异步支持,只需要实现AsyncConfigurer接口的方法,设置线程池
+ * 然后在线程的方法上添加注解@Async即可
  */
 @Configuration
 @ComponentScan("async")

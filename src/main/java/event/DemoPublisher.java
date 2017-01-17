@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Created by durendong on 2017/1/16.
+ * 事件发布类
  */
 @Component
 public class DemoPublisher {
